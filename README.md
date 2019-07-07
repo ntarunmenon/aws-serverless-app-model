@@ -1,0 +1,1 @@
+Execute commands in command.sh to create SAM AWS lambda.
