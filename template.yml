@@ -11,3 +11,9 @@ Resources:
       Description: A starter AWS Lambda Function.
       MemorySize: 128
       Timeout: 3
+      Events:
+        HellowWorldSAMAPI:
+          Type: Api
+          Properties:
+            Path: /hello
+            Method: GET
